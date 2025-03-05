@@ -1,6 +1,6 @@
+
 import logoImg from "../../assets/logo.svg";
 import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
-
 
 
 export function Header() {
@@ -12,6 +12,7 @@ export function Header() {
 
                 <NewTransactionButton>Nova transação</NewTransactionButton>
             </HeaderContent>
+
 
         </HeaderContainer>
     )
